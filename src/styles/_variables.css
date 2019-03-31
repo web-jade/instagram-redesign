@@ -1,0 +1,10 @@
+/*
+  Global style settings
+*/
+
+:root {
+  --app-background-color: #FAFAFA;
+
+  --icon-color: #2C2C2C;
+  --icon-color-hover: #131313;
+}

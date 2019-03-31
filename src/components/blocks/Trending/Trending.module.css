@@ -1,0 +1,58 @@
+/* Module */
+.module {
+
+}
+
+/* Item */
+.item {
+  position: relative;
+  padding-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-decoration: none;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.item:hover > .tag,
+.item:focus > .tag  {
+  color: #3B8EDE;
+}
+
+.item:before {
+  content: "";
+
+  position: absolute;
+
+  margin-left: -30px;
+  margin-top: 5px;
+
+  width: 18px;
+  height: 10px;
+
+  background-image: url('./assets/icon-trending.svg');
+  background-size: cover;
+}
+
+/* Tag */
+.tag {
+  margin-bottom: 5px;
+
+  color: #2C2C2C;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* Posts */
+.posts {
+  color: #A5A7AA;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+}

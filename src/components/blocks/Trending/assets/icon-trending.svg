@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feeds" transform="translate(-138.000000, -426.000000)" stroke="#959699">
+            <g id="widget-trending" transform="translate(115.000000, 360.000000)">
+                <g id="Group" transform="translate(24.000000, 67.000000)">
+                    <polyline id="Path-63" points="0 7 4 3 6.50468111 5.5 12.002821 0"></polyline>
+                    <path d="M8,0 L12.0033819,0 L12.0033819,4" id="Path-64"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,281 @@
+/* Module */
+.module {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  height: 60px;
+
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 2px 2px 0 0;
+  border-top: 1px solid #EDEEEE;
+  border-left: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  background-color: #FFFFFF;
+}
+
+/* Avatar */
+.avatar {
+  margin-right: 10px;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Username */
+.username {
+  margin-right: 13px;
+
+  color: #2C2C2C;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.username:hover,
+.username:focus {
+  color: #3B8EDE;
+}
+
+/* Date */
+.date {
+  color: #818488;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.date:before {
+  content: "\2022";
+  margin-right: 8px;
+
+  color: rgba(129, 132, 136, .6);
+  font-size: 8px;
+}
+
+/* Image */
+.image {
+  width: 100%;
+
+  margin: 0;
+  box-sizing: border-box;
+
+  border-left: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  overflow: hidden;
+}
+
+/* Image wrapper */
+.imageWrapper {
+  width: 100%;
+  height: 400px;
+
+  overflow: hidden;
+}
+
+/* Image */
+.body {
+  width: 100%;
+
+  padding: 10px 20px 20px 20px;
+  box-sizing: border-box;
+
+  border-radius: 0 0 2px 2px;
+  border-left: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  border-bottom: 1px solid #EDEEEE;
+  background-color: #FFFFFF;
+}
+
+/* Description */
+.description {
+  width: 100%;
+
+  padding: 15px 20px 0 20px;
+  margin: 0;
+  box-sizing: border-box;
+
+  color: #231F20;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+
+  background-color: #FFFFFF;
+}
+
+.description > span {
+  font-weight: 500;
+}
+
+/* Description user */
+.descriptionUser {
+  color: #231F20;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.descriptionUser:hover,
+.descriptionUser:focus {
+  color: #3B8EDE;
+}
+
+/* Show comments */
+.showComments {
+  padding: 0;
+  margin-bottom: 12px;
+  display: inline-block;
+
+  color: #A5A7AA;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.showComments:hover,
+.showComments:focus {
+  color: #3B8EDE;
+}
+
+/* Comments */
+.comments {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Comment */
+.comment {
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.comment > span {
+  font-weight: 500;
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/* Comment user */
+.commentUser {
+  color: #000000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.commentUser:hover,
+.commentUser:focus {
+  color: #3B8EDE;
+}
+
+/* Controls */
+.controls {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Left controls */
+.leftControls {
+  display: flex;
+  align-items: center;
+}
+
+/* Control */
+.control {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+
+  color: #818488;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.control > span {
+  margin-right: 10px;
+
+  color: #959699;
+  font-size: 21px;
+}
+
+.control:not(:last-child) {
+  margin-right: 30px;
+}
+
+.control:first-child > span {
+  color: #EF4752;
+}
+
+.control:hover,
+.control:focus {
+  color: #000;
+}
+
+.control:last-child:hover > span,
+.control:last-child:focus > span {
+  color: #000;
+}
+
+/* Right controls */
+.rightControls {
+  margin-left: auto;
+}
+
+/* More */
+.more {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+
+  color: #818488;
+  font-size: 3px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.more:hover,
+.more:focus {
+  color: #3B8EDE;
+}

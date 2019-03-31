@@ -1,0 +1,117 @@
+/* Module */
+.module {
+  width: 100%;
+  display: block;
+}
+
+/* Background */
+.background {
+  position: relative;
+
+  width: 100%;
+  height: 100px;
+
+  border-radius: 2px 2px 0 0;
+}
+
+/* Avatar */
+.avatar {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: -36px;
+
+  margin: auto;
+
+  width: 72px;
+  height: 72px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Body */
+.body {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 44px 20px 20px 20px;
+  box-sizing: border-box;
+
+  border-left: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  border-bottom: 1px solid #EDEEEE;
+  border-radius: 0 0 2px 2px;
+  background-color: #FFFFFF;
+}
+
+/* Username */
+.username {
+  margin-bottom: 2px;
+
+  color: #231F20;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.username:hover,
+.username:focus {
+  color: #3B8EDE;
+}
+
+/* Login */
+.login {
+  margin-bottom: 25px;
+
+  color: rgba(129, 132, 136, .7);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* Stats */
+.stats {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Item */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.item:hover > .count,
+.item:focus > .count {
+  color: #3B8EDE;
+}
+
+/* Count */
+.count {
+  margin-bottom: 3px;
+
+  color: #231F20;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+/* Type */
+.type {
+  color: rgba(129, 132, 136, .7);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+}

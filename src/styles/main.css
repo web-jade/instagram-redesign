@@ -1,0 +1,20 @@
+@import "~normalize.css";
+
+@import "_iconpack/style.css";
+@import "_variables.css";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  direction: ltr;
+
+  font-family: 'SF Pro Display';
+
+  background-color: var(--app-background-color);
+}
+
+a:focus,
+button {
+  outline: none;
+}

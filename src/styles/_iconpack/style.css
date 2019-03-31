@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?76jb8m');
+  src:  url('./fonts/icomoon.eot?76jb8m#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?76jb8m') format('truetype'),
+    url('./fonts/icomoon.woff?76jb8m') format('woff'),
+    url('./fonts/icomoon.svg?76jb8m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-people:before {
+  content: "\e900";
+}
+.icon-comment:before {
+  content: "\e901";
+}
+.icon-direct:before {
+  content: "\e902";
+}
+.icon-explore:before {
+  content: "\e903";
+}
+.icon-inbox:before {
+  content: "\e904";
+}
+.icon-like:before {
+  content: "\e905";
+}
+.icon-more:before {
+  content: "\e906";
+}
+.icon-notification:before {
+  content: "\e907";
+}
+.icon-search:before {
+  content: "\e908";
+}

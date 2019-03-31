@@ -1,0 +1,98 @@
+/* Module */
+.module {
+
+}
+
+/* Body */
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Item */
+.item {
+  width: 100%;
+
+  padding: 15px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid #EDEEEE;
+}
+
+/* User */
+.user {
+  display: flex;
+  align-items: center;
+}
+
+/* Avatar */
+.avatar {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Content */
+.content {
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Username */
+.username {
+  margin-bottom: 1px;
+
+  color: #2C2C2C;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.username:hover,
+.username:focus {
+  color: #3B8EDE;
+}
+
+/* Tag */
+.tag {
+  color: #818488;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+/* Add user */
+.addUser {
+  padding: 2px 11px 0 11px;
+  border: 1px solid #3B8EDE;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+
+  color: #3B8EDE;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.addUser:hover {
+  color: #FFFFFF;
+  background-color: #3B8EDE;
+}
+
+.addUser:focus {
+  color: #FFFFFF;
+  border-color: #357ac2;
+  background-color: #357ac2;
+}

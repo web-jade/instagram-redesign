@@ -1,0 +1,35 @@
+/* Module */
+.module {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border-radius: 0 0 2px 2px;
+  border-left: 1px solid #EDEEEE;
+  border-bottom: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  background-color: #FFFFFF;
+}
+
+/* Module fluid */
+.moduleFluid {
+  width: 100%;
+
+  padding: 15px;
+  box-sizing: border-box;
+
+  border-left: 1px solid #EDEEEE;
+  border-bottom: 1px solid #EDEEEE;
+  border-right: 1px solid #EDEEEE;
+  background-color: #FFFFFF;
+}
+
+/* Module padding */
+.modulePadding {
+  padding: 15px;
+}
+
+/* Module without padding */
+.moduleWithoutPadding {
+  padding: 0;
+}
