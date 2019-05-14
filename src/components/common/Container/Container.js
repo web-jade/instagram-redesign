@@ -15,7 +15,13 @@ class Container extends React.Component {
   };
 
   render() {
-    const { fluid, as: Component, className, ...props } = this.props;
+    const {
+      fluid,
+      as: Component,
+      className,
+      ...props
+    } = this.props;
+
     return (
       <Component
         {...props}

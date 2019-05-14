@@ -1,0 +1,31 @@
+.module {
+  position: fixed;
+  z-index: 9999;
+
+  bottom: 2%;
+  right: 2%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.module:before {
+  content: "";
+
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 8px;
+
+  background-image: url(https://image.flaticon.com/icons/svg/25/25657.svg);
+  background-size: cover;
+}
+
+.module strong {
+  margin-left: 4px;
+  text-decoration: underline;
+}

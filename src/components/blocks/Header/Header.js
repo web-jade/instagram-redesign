@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import styles from './Header.module.css';
 
 import Container from "../../common/Container/Container";
-import Logo from '../../../assets/logo.svg';
+import Logo from "../../../assets/logo.svg";
 
 class Header extends Component {
   static propTypes = {
@@ -16,23 +16,25 @@ class Header extends Component {
   };
 
   render() {
+    const { notification } = this.props;
+
+    const notificationElement = classNames(
+      styles.nav,
+      styles.navTypeInbox,
+      notification ? styles.navNotificationActive : styles.navNotificationInActive
+    );
+
     return (
       <header className={styles.module}>
         <Container className={styles.container}>
           <nav className={styles.navbar}>
-            <a href="/explore" className={classNames(styles.nav, styles.navTypeExplore)}>
+            <a href="/" className={classNames(styles.nav, styles.navTypeExplore)}>
               <span className="icon-explore"/>
             </a>
-            <a href="/explore" className={classNames(styles.nav, styles.navTypeNotification)}>
+            <a href="/" className={classNames(styles.nav, styles.navTypeNotification)}>
               <span className="icon-notification"/>
             </a>
-            <a
-              href="/explore"
-              className={classNames(
-                styles.nav,
-                styles.navTypeInbox,
-                this.props.notification ? styles.navNotificationActive : styles.navNotificationInActive
-              )}>
+            <a href="/" className={notificationElement}>
               <span className="icon-inbox"/>
             </a>
           </nav>

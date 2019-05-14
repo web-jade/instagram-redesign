@@ -34,6 +34,7 @@ class AccountInfo extends Component {
       followingCount,
       className
     } = this.props;
+
     return (
       <div className={classNames(
         styles.module,

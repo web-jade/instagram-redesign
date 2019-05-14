@@ -7,6 +7,9 @@
 
 /* Left sidebar */
 .leftSidebar {
+  position: sticky;
+  top: 15px;
+
   max-width: 280px;
   width: 100%;
 
@@ -15,6 +18,9 @@
 
 /* Right sidebar */
 .rightSidebar {
+  position: sticky;
+  top: 15px;
+
   max-width: 280px;
   width: 100%;
 

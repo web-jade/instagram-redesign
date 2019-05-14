@@ -40,7 +40,39 @@ class Feed extends Component {
           <PostItem
             userName="Instagram"
             date={(new Date()).toString()}
-            imageUrl="https://gfnc1kn6pi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/best-food-for-pug-puppies-header.jpg"
+            imageUrl="https://cdn12.img.sputnik.by/images/103459/51/1034595145.jpg"
+            description="Three years ago, Paulo del Valle (@paulodelvalle) started the My Instagram Logo project, inspiring thousands of creators to remix our"
+            likesCount={104}
+            comments={[
+              { id: 0, username: "janlosert", text: "Amazing!", href: "/" },
+              { id: 1, username: "marcallcock", text: "Awesome! Congrats man!!", href: "/" },
+              { id: 2, username: "firmansananda", text: "Cool mate. 👌", href: "/" },
+              { id: 3, username: "muroadriano", text: "It's just too iOS for Android. And the other one was too iOS6-... Keep thinking", href: "/" },
+              { id: 4, username: "jleet", text: "Wow, nice try at damage control. WE DON'T CARE! Give us the old logo back, and keep the black and white. It looks better black and white", href: "/" },
+              { id: 5, username: "dwtsrikerI", text: "like the layout but the logo is terrible", href: "/" },
+              { id: 6, username: "emma.elizabethh", text: "Please change it back", href: "/" }
+            ]}
+          />
+          <PostItem
+            userName="Instagram"
+            date={(new Date()).toString()}
+            imageUrl="https://cdn12.img.sputnik.by/images/103459/51/1034595145.jpg"
+            description="Three years ago, Paulo del Valle (@paulodelvalle) started the My Instagram Logo project, inspiring thousands of creators to remix our"
+            likesCount={104}
+            comments={[
+              { id: 0, username: "janlosert", text: "Amazing!", href: "/" },
+              { id: 1, username: "marcallcock", text: "Awesome! Congrats man!!", href: "/" },
+              { id: 2, username: "firmansananda", text: "Cool mate. 👌", href: "/" },
+              { id: 3, username: "muroadriano", text: "It's just too iOS for Android. And the other one was too iOS6-... Keep thinking", href: "/" },
+              { id: 4, username: "jleet", text: "Wow, nice try at damage control. WE DON'T CARE! Give us the old logo back, and keep the black and white. It looks better black and white", href: "/" },
+              { id: 5, username: "dwtsrikerI", text: "like the layout but the logo is terrible", href: "/" },
+              { id: 6, username: "emma.elizabethh", text: "Please change it back", href: "/" }
+            ]}
+          />
+          <PostItem
+            userName="Instagram"
+            date={(new Date()).toString()}
+            imageUrl="https://cdn12.img.sputnik.by/images/103459/51/1034595145.jpg"
             description="Three years ago, Paulo del Valle (@paulodelvalle) started the My Instagram Logo project, inspiring thousands of creators to remix our"
             likesCount={104}
             comments={[

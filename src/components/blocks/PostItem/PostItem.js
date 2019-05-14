@@ -31,6 +31,7 @@ class PostItem extends Component {
       likesCount,
       className
     } = this.props;
+
     return (
       <article
         className={classNames(

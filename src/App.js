@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from "./components/blocks/Header/Header";
 
 import { Feed } from "./components/pages";
+import Copyright from "./components/blocks/Copyright/Copyright";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div className="Content">
           <Feed/>
         </div>
+        <Copyright/>
       </div>
     );
   }
